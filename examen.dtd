@@ -1,0 +1,10 @@
+<!ELEMENT prestamo (libro+)>
+        <!ELEMENT libro (titulo, autor, editorial, precio)>
+        <!ELEMENT titulo (#PCDATA)>
+        <!ELEMENT autor (#PCDATA)>
+        <!ELEMENT editorial (#PCDATA)>
+        <!ELEMENT precio (#PCDATA)>
+        <!ATTLIST libro codigo ID #REQUIRED anio #IMPLIED>
+        <!ATTLIST autor identidad ID #REQUIRED>
+
+

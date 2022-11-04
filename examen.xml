@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet type="text/xsl" href="examen.xsl" ?>
+<!DOCTYPE prestamo SYSTEM "examen.dtd" >
+<prestamo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="examen.xsd">
+    <libro codigo="" anio="2020">
+        <titulo>El mohan</titulo>
+        <autor identidad="1000086030">robin Willians</autor>
+        <editorial>Colombiana</editorial>
+        <precio>34.000</precio>
+    </libro>
+</prestamo>
